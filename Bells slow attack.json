@@ -61,7 +61,7 @@
     "modLevel" : 103.9218433159757,
     "modType" : "off",
     "modWaveform" : "sine",
-    "legatoMode" : "on",
+    "legatoMode" : "off",
     "velocitySensitive" : "off",
     "useFrequencyEnvelope" : "off",
     "portamento" : 0,
@@ -73,15 +73,15 @@
   "filterSettings" : {
     "freqBend" : {
       "attackTime" : 0,
-      "decayTime" : 1.0926378403951587,
-      "sustainLevel" : 0.592113300000294,
+      "decayTime" : 1.2,
+      "sustainLevel" : 0,
       "releaseTime" : 1.6322078655196048,
       "isExponential" : false,
       "attackLevel" : 0.6178894406802086,
       "releaseLevel" : -1
     },
     "frequency" : 0.16666666666666666,
-    "qFactor" : 30.237718913135712,
+    "qFactor" : 60.835026166724965,
     "gain" : 0.7669229461824535,
     "filterType" : "lowpass",
     "output" : "phasor",
