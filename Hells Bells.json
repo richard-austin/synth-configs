@@ -1,0 +1,147 @@
+{
+  "numberOfOscillators" : 127,
+  "oscillator1Settings" : {
+    "adsr" : {
+      "attackTime" : 0,
+      "decayTime" : 1.7934974384573383,
+      "sustainLevel" : 0.17322308449555035,
+      "releaseTime" : 3.1349262969151352,
+      "isExponential" : false
+    },
+    "freqBend" : {
+      "attackTime" : 0.3,
+      "decayTime" : 0.8,
+      "sustainLevel" : 0.2,
+      "releaseTime" : 0.3,
+      "isExponential" : false,
+      "attackLevel" : 0.4,
+      "releaseLevel" : 0
+    },
+    "frequency" : -0.16666666666666666,
+    "deTune" : 0,
+    "gain" : 0.4,
+    "waveForm" : "sine",
+    "output" : "filter",
+    "modFreq" : 1.2917363252145024,
+    "modLevel" : 243.27299001234758,
+    "modType" : "amplitude",
+    "modWaveform" : "sine",
+    "legatoMode" : "off",
+    "velocitySensitive" : "on",
+    "useFrequencyEnvelope" : "off",
+    "portamento" : 0,
+    "portamentoType" : "chord",
+    "mod2Level" : 212.98219012694364,
+    "modType2" : "frequency",
+    "balance" : 0
+  },
+  "oscillator2Settings" : {
+    "adsr" : {
+      "attackTime" : 0,
+      "decayTime" : 1.6203370284594174,
+      "sustainLevel" : 0.15747077848789762,
+      "releaseTime" : 3.0649037763363087,
+      "isExponential" : false
+    },
+    "freqBend" : {
+      "attackTime" : 0,
+      "decayTime" : 0.30008270178642266,
+      "sustainLevel" : 0.23636363636363636,
+      "releaseTime" : 1.2318181818181821,
+      "isExponential" : false,
+      "attackLevel" : 0.6,
+      "releaseLevel" : -1
+    },
+    "frequency" : 0,
+    "deTune" : 0,
+    "gain" : 0.4,
+    "waveForm" : "sine",
+    "output" : "filter",
+    "modFreq" : 2,
+    "modLevel" : 252.02954079064423,
+    "modType" : "amplitude",
+    "modWaveform" : "sine",
+    "legatoMode" : "off",
+    "velocitySensitive" : "off",
+    "useFrequencyEnvelope" : "off",
+    "portamento" : 0,
+    "portamentoType" : "chord",
+    "mod2Level" : 229.98790375237945,
+    "modType2" : "off",
+    "balance" : 0
+  },
+  "filterSettings" : {
+    "freqBend" : {
+      "attackTime" : 0,
+      "decayTime" : 1.0926378403951587,
+      "sustainLevel" : 0.592113300000294,
+      "releaseTime" : 1.3464515906241192,
+      "isExponential" : false,
+      "attackLevel" : 0.8192348738243882,
+      "releaseLevel" : 0.43292322137678385
+    },
+    "frequency" : 0,
+    "qFactor" : 81.51363637557797,
+    "gain" : 0.463364703924089,
+    "filterType" : "lowpass",
+    "output" : "ringmod",
+    "modFreq" : 2,
+    "modLevel" : 151.15423009589577,
+    "modType" : "off",
+    "modWaveform" : "sine",
+    "useFrequencyEnvelope" : "on",
+    "deTune" : 0,
+    "portamento" : 0,
+    "portamentoType" : "chord"
+  },
+  "noiseSettings" : {
+    "adsr" : {
+      "attackTime" : 0,
+      "decayTime" : 6.904574455823177,
+      "sustainLevel" : 0.7,
+      "releaseTime" : 2.96580093666156,
+      "isExponential" : false
+    },
+    "legatoMode" : "off",
+    "velocitySensitive" : "off",
+    "gain" : 1,
+    "type" : "white",
+    "output" : "off"
+  },
+  "ringModSettings" : {
+    "modFrequency" : 0.4808615225756375,
+    "modDepth" : 1,
+    "modWaveform" : "sine",
+    "internalMod" : "on",
+    "output" : "reverb"
+  },
+  "reverbSettings" : {
+    "attackTime" : 0,
+    "decayTime" : 6.507349097078489,
+    "predelay" : 0,
+    "repeatEchoTime" : 0.1338513756421482,
+    "repeatEchoGain" : 0.40386759551366425,
+    "wetDry" : 0,
+    "output" : "speaker"
+  },
+  "phasorSettings" : {
+    "phase" : 0,
+    "gain" : 0,
+    "lfoFrequency" : 0.2,
+    "modWaveform" : "sine",
+    "modDepth" : 0.09219073703032686,
+    "modulation" : "off",
+    "output" : "off",
+    "feedback" : 0,
+    "stages" : 11,
+    "wetDry" : 0
+  },
+  "generalSettings" : {
+    "level" : 0.8894889767511842,
+    "synthType" : "poly",
+    "configFileName" : "Hells Bells"
+  },
+  "analyserSettings" : {
+    "analyserType" : "spectrum"
+  }
+}

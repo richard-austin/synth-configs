@@ -1,0 +1,147 @@
+{
+  "numberOfOscillators" : 127,
+  "oscillator1Settings" : {
+    "adsr" : {
+      "attackTime" : 0,
+      "decayTime" : 1.9712193715413036,
+      "sustainLevel" : 0.3505662928941794,
+      "releaseTime" : 2.288040866307321,
+      "isExponential" : false
+    },
+    "freqBend" : {
+      "attackTime" : 0.3,
+      "decayTime" : 0.8,
+      "sustainLevel" : 0.2,
+      "releaseTime" : 0.3,
+      "isExponential" : false,
+      "attackLevel" : 0.4,
+      "releaseLevel" : 0
+    },
+    "frequency" : -0.16666666666666666,
+    "deTune" : 0,
+    "gain" : 0.19557911067353498,
+    "waveForm" : "sine",
+    "output" : "phasor",
+    "modFreq" : 0.32266179530925854,
+    "modLevel" : 63.03555515656727,
+    "modType" : "frequency",
+    "modWaveform" : "sine",
+    "legatoMode" : "off",
+    "velocitySensitive" : "off",
+    "useFrequencyEnvelope" : "off",
+    "portamento" : 0.15,
+    "portamentoType" : "last",
+    "mod2Level" : 0,
+    "modType2" : "off",
+    "balance" : 0
+  },
+  "oscillator2Settings" : {
+    "adsr" : {
+      "attackTime" : 0,
+      "decayTime" : 0.267450285511781,
+      "sustainLevel" : 0.5146347400145108,
+      "releaseTime" : 2.332447447663413,
+      "isExponential" : false
+    },
+    "freqBend" : {
+      "attackTime" : 0,
+      "decayTime" : 0.30008270178642266,
+      "sustainLevel" : 0.23636363636363636,
+      "releaseTime" : 1.2318181818181821,
+      "isExponential" : false,
+      "attackLevel" : 0.6,
+      "releaseLevel" : -1
+    },
+    "frequency" : -0.16666666666666666,
+    "deTune" : 0,
+    "gain" : 0.19775765747072263,
+    "waveForm" : "sine",
+    "output" : "phasor",
+    "modFreq" : 0.361521846590338,
+    "modLevel" : 66.59206966958617,
+    "modType" : "frequency",
+    "modWaveform" : "sine",
+    "legatoMode" : "off",
+    "velocitySensitive" : "on",
+    "useFrequencyEnvelope" : "off",
+    "portamento" : 0.15,
+    "portamentoType" : "last",
+    "mod2Level" : 0,
+    "modType2" : "off",
+    "balance" : 0
+  },
+  "filterSettings" : {
+    "freqBend" : {
+      "attackTime" : 0.5786209998045603,
+      "decayTime" : 1.0926378403951587,
+      "sustainLevel" : 0.5885220379596413,
+      "releaseTime" : 0.40470810076902686,
+      "isExponential" : false,
+      "attackLevel" : 0.6836446630646554,
+      "releaseLevel" : 0.002440649738825093
+    },
+    "frequency" : 0,
+    "qFactor" : 96.89315224692457,
+    "gain" : 0.30089606143099457,
+    "filterType" : "bandpass",
+    "output" : "reverb",
+    "modFreq" : 0.3295829413429249,
+    "modLevel" : 71.1881279108589,
+    "modType" : "frequency",
+    "modWaveform" : "sine",
+    "useFrequencyEnvelope" : "off",
+    "deTune" : 0,
+    "portamento" : 0.15,
+    "portamentoType" : "last"
+  },
+  "noiseSettings" : {
+    "adsr" : {
+      "attackTime" : 0,
+      "decayTime" : 3.148806764082772,
+      "sustainLevel" : 0.3472958417384441,
+      "releaseTime" : 3.877809964861501,
+      "isExponential" : false
+    },
+    "legatoMode" : "off",
+    "velocitySensitive" : "on",
+    "gain" : 1,
+    "type" : "white",
+    "output" : "filter"
+  },
+  "ringModSettings" : {
+    "modFrequency" : 0.8544619337541481,
+    "modDepth" : 0.5,
+    "modWaveform" : "sine",
+    "internalMod" : "on",
+    "output" : "speaker"
+  },
+  "reverbSettings" : {
+    "attackTime" : 0,
+    "decayTime" : 2.9880333783633617,
+    "predelay" : 0,
+    "repeatEchoTime" : 0.1338513756421482,
+    "repeatEchoGain" : 0.3665729747439861,
+    "wetDry" : -0.24918887154459668,
+    "output" : "speaker"
+  },
+  "phasorSettings" : {
+    "phase" : -0.030198963385702396,
+    "gain" : 1,
+    "lfoFrequency" : 0.3454496162072506,
+    "modWaveform" : "sine",
+    "modDepth" : 0.7174283225709438,
+    "modulation" : "on",
+    "output" : "reverb",
+    "feedback" : -0.6035128636275836,
+    "stages" : 24,
+    "wetDry" : -0.10955534224852174
+  },
+  "generalSettings" : {
+    "level" : 1,
+    "synthType" : "poly",
+    "configFileName" : "bandpass test"
+  },
+  "analyserSettings" : {
+    "analyserType" : "spectrum"
+  }
+}
