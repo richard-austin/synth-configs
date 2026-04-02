@@ -132,8 +132,8 @@
     "modDepth" : 0.9382119736256052,
     "modulation" : "on",
     "output" : "reverb",
-    "feedback" : -0.0014539923021920946,
-    "stages" : 11,
+    "feedback" : -0.7719965245192001,
+    "stages" : 31,
     "wetDry" : 0
   },
   "generalSettings" : {

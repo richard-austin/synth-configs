@@ -32,7 +32,8 @@
     "portamento" : 0,
     "portamentoType" : "last",
     "mod2Level" : 0.013357058068859562,
-    "modType2" : "off"
+    "modType2" : "off",
+    "balance" : 0
   },
   "oscillator2Settings" : {
     "adsr" : {
@@ -66,7 +67,8 @@
     "portamento" : 0,
     "portamentoType" : "last",
     "mod2Level" : 0,
-    "modType2" : "off"
+    "modType2" : "off",
+    "balance" : 0
   },
   "filterSettings" : {
     "freqBend" : {
@@ -118,7 +120,7 @@
     "decayTime" : 1.5057888574664111,
     "predelay" : 0,
     "repeatEchoTime" : 0.03581504184832375,
-    "repeatEchoGain" : 0.9488516637111716,
+    "repeatEchoGain" : 0.6701121395359388,
     "wetDry" : -0.4759711737459263,
     "output" : "speaker"
   },
@@ -131,7 +133,9 @@
     "modulation" : "off",
     "output" : "off",
     "feedback" : 0,
-    "stages" : 11
+    "stages" : 11,
+    "bandwidth" : -0.25,
+    "wetDry" : 0
   },
   "generalSettings" : {
     "level" : 0.5028062695418029,

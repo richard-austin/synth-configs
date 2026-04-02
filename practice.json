@@ -2,7 +2,7 @@
   "numberOfOscillators" : 127,
   "oscillator1Settings" : {
     "adsr" : {
-      "attackTime" : 0.4787599881619286,
+      "attackTime" : 0,
       "decayTime" : 6,
       "sustainLevel" : 0,
       "releaseTime" : 0.6,
@@ -37,7 +37,7 @@
   },
   "oscillator2Settings" : {
     "adsr" : {
-      "attackTime" : 0.3366179321862075,
+      "attackTime" : 0,
       "decayTime" : 6,
       "sustainLevel" : 0,
       "releaseTime" : 0.6,
@@ -97,7 +97,7 @@
   "noiseSettings" : {
     "adsr" : {
       "attackTime" : 0,
-      "decayTime" : 6.021956938357251,
+      "decayTime" : 10,
       "sustainLevel" : 0,
       "releaseTime" : 2,
       "isExponential" : false
@@ -142,6 +142,6 @@
     "configFileName" : "practice"
   },
   "analyserSettings" : {
-    "analyserType" : "oscilloscope"
+    "analyserType" : "spectrum"
   }
 }
