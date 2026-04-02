@@ -125,7 +125,7 @@
     "output" : "speaker"
   },
   "phasorSettings" : {
-    "phase" : -0.020338217776264704,
+    "phase" : -0.07707323738527397,
     "gain" : 1,
     "lfoFrequency" : 0.5517809594817416,
     "modWaveform" : "sine",
@@ -134,7 +134,8 @@
     "output" : "speaker",
     "feedback" : -0.30483096369053336,
     "stages" : 42,
-    "wetDry" : 0
+    "wetDry" : 0,
+    "bandwidth" : -0.9566666666666667
   },
   "generalSettings" : {
     "level" : 0.5657779329471205,
