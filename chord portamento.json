@@ -32,7 +32,8 @@
     "portamento" : 0.3,
     "portamentoType" : "chord",
     "mod2Level" : 0,
-    "modType2" : "off"
+    "modType2" : "off",
+    "balance" : 0
   },
   "oscillator2Settings" : {
     "adsr" : {
@@ -53,7 +54,7 @@
     },
     "frequency" : 0,
     "deTune" : 0,
-    "gain" : 0.4,
+    "gain" : 0.14163049138886902,
     "waveForm" : "sawtooth",
     "output" : "filter",
     "modFreq" : 0,
@@ -66,7 +67,8 @@
     "portamento" : 0.3,
     "portamentoType" : "chord",
     "mod2Level" : 0,
-    "modType2" : "off"
+    "modType2" : "off",
+    "balance" : 0
   },
   "filterSettings" : {
     "freqBend" : {
@@ -82,7 +84,7 @@
     "qFactor" : 33.85473324225624,
     "gain" : 0.8622187413438432,
     "filterType" : "lowpass",
-    "output" : "phasor",
+    "output" : "reverb",
     "modFreq" : 2,
     "modLevel" : 0.4,
     "modType" : "off",
@@ -123,15 +125,17 @@
     "output" : "speaker"
   },
   "phasorSettings" : {
-    "phase" : 0,
+    "phase" : -0.04079734707330037,
     "gain" : 1,
-    "lfoFrequency" : 0.2,
+    "lfoFrequency" : 0.3934168688530155,
     "modWaveform" : "sine",
-    "modDepth" : 0.5927688114934774,
-    "modulation" : "off",
+    "modDepth" : 0.7641941293533709,
+    "modulation" : "on",
     "output" : "reverb",
     "feedback" : 0,
-    "stages" : 23
+    "stages" : 23,
+    "bandwidth" : -0.7786036551202656,
+    "wetDry" : 0
   },
   "generalSettings" : {
     "level" : 1,
