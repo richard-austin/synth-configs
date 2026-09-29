@@ -5,9 +5,9 @@
   "oscillatorSettings" : [ {
     "adsr" : {
       "attackTime" : 0,
-      "decayTime" : 0,
+      "decayTime" : 1.5652106400704038,
       "sustainLevel" : 1,
-      "releaseTime" : 0,
+      "releaseTime" : 0.8037046720670523,
       "isExponential" : false
     },
     "freqBend" : {
@@ -23,10 +23,10 @@
     "deTune" : 0,
     "gain" : 0.4,
     "balance" : 0,
-    "waveForm" : "hammondFull",
+    "waveForm" : "sine",
     "output" : "phasor",
     "modFreq" : 0.9389848114319013,
-    "modLevel" : 0.003446912855927833,
+    "modLevel" : 1,
     "modType" : "off",
     "modTypeExternal" : "off",
     "modOutput" : "envelope",
@@ -53,16 +53,16 @@
       "attackLevel" : 0.2,
       "releaseLevel" : 0
     },
-    "frequency" : -0.16666666666666666,
+    "frequency" : -0.5,
     "deTune" : 0,
-    "gain" : 0.23705495634247642,
+    "gain" : 0.4,
     "balance" : 0,
-    "waveForm" : "organ2",
-    "output" : "phasor",
+    "waveForm" : "sawtooth",
+    "output" : "off",
     "modFreq" : 0.12426997544650203,
     "modLevel" : 1,
     "modType" : "off",
-    "modTypeExternal" : "off",
+    "modTypeExternal" : "frequency",
     "modOutput" : "direct",
     "modWaveform" : "sine",
     "legatoMode" : "off",
@@ -73,9 +73,9 @@
   }, {
     "adsr" : {
       "attackTime" : 0,
-      "decayTime" : 3.9100247069679344,
-      "sustainLevel" : 0.4,
-      "releaseTime" : 6,
+      "decayTime" : 3.798043753920154,
+      "sustainLevel" : 0.9799493276875465,
+      "releaseTime" : 2.916942939381018,
       "isExponential" : false
     },
     "freqBend" : {
@@ -87,20 +87,20 @@
       "attackLevel" : 0.2,
       "releaseLevel" : 0
     },
-    "frequency" : 0,
+    "frequency" : -0.5,
     "deTune" : 0,
     "gain" : 0.2,
     "balance" : 0,
-    "waveForm" : "sine",
+    "waveForm" : "sawtooth",
     "output" : "off",
     "modFreq" : 0,
     "modLevel" : 0.4,
     "modType" : "off",
     "modTypeExternal" : "off",
-    "modOutput" : "direct",
+    "modOutput" : "envelope",
     "modWaveform" : "sine",
     "legatoMode" : "off",
-    "velocitySensitive" : "on",
+    "velocitySensitive" : "off",
     "useFrequencyEnvelope" : "off",
     "portamento" : 0,
     "portamentoType" : "last"
@@ -121,7 +121,7 @@
       "attackLevel" : 0.2,
       "releaseLevel" : 0
     },
-    "frequency" : 0.32150129625725876,
+    "frequency" : 0,
     "deTune" : 0,
     "gain" : 0.2,
     "balance" : 0,
@@ -141,24 +141,24 @@
   } ],
   "filterSettings" : [ {
     "freqBend" : {
-      "attackTime" : 0,
-      "decayTime" : 2,
+      "attackTime" : 0.7445262878647532,
+      "decayTime" : 0.991084910087343,
       "sustainLevel" : 0.7726250904603592,
       "releaseTime" : 3,
       "isExponential" : false,
-      "attackLevel" : 1,
+      "attackLevel" : 0.4623369359607273,
       "releaseLevel" : -0.14691848211363392
     },
     "frequency" : 0,
     "qFactor" : 1,
     "gain" : 0.4,
-    "filterType" : "bandpass",
-    "output" : "phasor",
+    "filterType" : "lowpass",
+    "output" : "speaker",
     "modFreq" : 2,
     "modLevel" : 0.4,
     "modType" : "off",
     "modWaveform" : "sine",
-    "useFrequencyEnvelope" : "off",
+    "useFrequencyEnvelope" : "on",
     "deTune" : 0,
     "portamento" : 0,
     "portamentoType" : "last"
@@ -259,30 +259,30 @@
     "predelay" : 0,
     "repeatEchoTime" : 0.7,
     "repeatEchoGain" : 0,
-    "wetDry" : -0.5,
+    "wetDry" : -0.004411541235185322,
     "output" : "speaker"
   },
   "phasorSettings" : {
-    "phase" : 0.896000000000001,
+    "phase" : 0.6239999999999986,
     "bandwidth" : 0.6,
     "gain" : 1,
-    "lfoFrequency" : 0.11200000000000215,
+    "lfoFrequency" : 0.22893293069999943,
     "modWaveform" : "sine",
-    "modDepth" : 0.9304779593033448,
+    "modDepth" : 0.4706037638054675,
     "modulation" : "on",
     "output" : "reverb",
-    "feedback" : 0.40183894336468645,
+    "feedback" : 0.25783894336468616,
     "stages" : 11,
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 0.23516729330268477,
-    "configFileName" : "Organ in big hall"
+    "level" : 0.42400000000000027,
+    "configFileName" : "woodpecker"
   },
   "analyserSettings" : {
     "analyserType" : "oscilloscope",
-    "yScale" : 5.785543338297413,
-    "xScale" : 5.523193907726914,
+    "yScale" : 4.73615426545246,
+    "xScale" : 1,
     "triggerLevel" : 0
   },
   "matrixSettings" : {
@@ -291,14 +291,26 @@
       "setting" : "off",
       "level" : 1.320801449925114
     }, {
-      "setting" : "off",
-      "level" : 2.1556176301576224
+      "setting" : "frequency",
+      "level" : 0.12779352505790462
     }, {
+      "setting" : "off",
+      "level" : 2.4173360379507063
+    }, {
+      "setting" : "off",
+      "level" : 1.165918479130149
+    } ], [ {
       "setting" : "off",
       "level" : 0
     }, {
       "setting" : "off",
       "level" : 0
+    }, {
+      "setting" : "frequency",
+      "level" : 0.15696063821975903
+    }, {
+      "setting" : "off",
+      "level" : 1.3597710769527067
     } ], [ {
       "setting" : "off",
       "level" : 0
@@ -310,19 +322,7 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 0
-    } ], [ {
-      "setting" : "off",
-      "level" : 0
-    }, {
-      "setting" : "off",
-      "level" : 0
-    }, {
-      "setting" : "off",
-      "level" : 0
-    }, {
-      "setting" : "off",
-      "level" : 1.4996431907629364
+      "level" : 0.3784159479979793
     } ], [ {
       "setting" : "off",
       "level" : 0

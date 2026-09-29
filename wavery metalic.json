@@ -1,13 +1,13 @@
 {
   "synthComponentSettings" : {
-    "selectedOscillator" : "1"
+    "selectedOscillator" : "4"
   },
   "oscillatorSettings" : [ {
     "adsr" : {
       "attackTime" : 0,
-      "decayTime" : 0,
-      "sustainLevel" : 1,
-      "releaseTime" : 0,
+      "decayTime" : 1.5030108754929812,
+      "sustainLevel" : 0.4536620034802446,
+      "releaseTime" : 3,
       "isExponential" : false
     },
     "freqBend" : {
@@ -19,14 +19,14 @@
       "attackLevel" : 0.2,
       "releaseLevel" : 0
     },
-    "frequency" : 0,
-    "deTune" : 0,
-    "gain" : 0.4,
+    "frequency" : 0.3333333333333333,
+    "deTune" : -616.3636363636364,
+    "gain" : 0.2,
     "balance" : 0,
-    "waveForm" : "hammondFull",
+    "waveForm" : "sine",
     "output" : "phasor",
     "modFreq" : 0.9389848114319013,
-    "modLevel" : 0.003446912855927833,
+    "modLevel" : 1,
     "modType" : "off",
     "modTypeExternal" : "off",
     "modOutput" : "envelope",
@@ -39,9 +39,9 @@
   }, {
     "adsr" : {
       "attackTime" : 0,
-      "decayTime" : 0,
-      "sustainLevel" : 1,
-      "releaseTime" : 0.31813322549382045,
+      "decayTime" : 3.656132456719568,
+      "sustainLevel" : 0.6138373817267372,
+      "releaseTime" : 2.151253968822398,
       "isExponential" : false
     },
     "freqBend" : {
@@ -53,12 +53,12 @@
       "attackLevel" : 0.2,
       "releaseLevel" : 0
     },
-    "frequency" : -0.16666666666666666,
+    "frequency" : 0.13750118033511013,
     "deTune" : 0,
-    "gain" : 0.23705495634247642,
+    "gain" : 0.2,
     "balance" : 0,
-    "waveForm" : "organ2",
-    "output" : "phasor",
+    "waveForm" : "sine",
+    "output" : "off",
     "modFreq" : 0.12426997544650203,
     "modLevel" : 1,
     "modType" : "off",
@@ -92,11 +92,11 @@
     "gain" : 0.2,
     "balance" : 0,
     "waveForm" : "sine",
-    "output" : "off",
+    "output" : "phasor",
     "modFreq" : 0,
     "modLevel" : 0.4,
     "modType" : "off",
-    "modTypeExternal" : "off",
+    "modTypeExternal" : "frequency",
     "modOutput" : "direct",
     "modWaveform" : "sine",
     "legatoMode" : "off",
@@ -150,7 +150,7 @@
       "releaseLevel" : -0.14691848211363392
     },
     "frequency" : 0,
-    "qFactor" : 1,
+    "qFactor" : 29.687686417849662,
     "gain" : 0.4,
     "filterType" : "bandpass",
     "output" : "phasor",
@@ -173,7 +173,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 1,
+    "qFactor" : 20,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -196,7 +196,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 1,
+    "qFactor" : 20,
     "gain" : 0.4,
     "filterType" : "allpass",
     "output" : "speaker",
@@ -219,7 +219,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 1,
+    "qFactor" : 78.41483413464597,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "phasor",
@@ -237,7 +237,7 @@
       "attackTime" : 0,
       "decayTime" : 0.5,
       "sustainLevel" : 0.1,
-      "releaseTime" : 6,
+      "releaseTime" : 6.95185703000944,
       "isExponential" : false
     },
     "legatoMode" : "on",
@@ -255,7 +255,7 @@
   },
   "reverbSettings" : {
     "attackTime" : 0,
-    "decayTime" : 1.9299444622714128,
+    "decayTime" : 0.7537298087442728,
     "predelay" : 0,
     "repeatEchoTime" : 0.7,
     "repeatEchoGain" : 0,
@@ -263,27 +263,24 @@
     "output" : "speaker"
   },
   "phasorSettings" : {
-    "phase" : 0.896000000000001,
-    "bandwidth" : 0.6,
+    "phase" : -0.04477856025078676,
+    "bandwidth" : -0.7629192769177774,
     "gain" : 1,
-    "lfoFrequency" : 0.11200000000000215,
+    "lfoFrequency" : 0.2,
     "modWaveform" : "sine",
-    "modDepth" : 0.9304779593033448,
+    "modDepth" : 0.7584779593033478,
     "modulation" : "on",
-    "output" : "reverb",
-    "feedback" : 0.40183894336468645,
+    "output" : "speaker",
+    "feedback" : 0.8158066853596189,
     "stages" : 11,
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 0.23516729330268477,
-    "configFileName" : "Organ in big hall"
+    "level" : 0.5,
+    "configFileName" : "wavery metalic"
   },
   "analyserSettings" : {
-    "analyserType" : "oscilloscope",
-    "yScale" : 5.785543338297413,
-    "xScale" : 5.523193907726914,
-    "triggerLevel" : 0
+    "analyserType" : "spectrum"
   },
   "matrixSettings" : {
     "size" : 4,
@@ -291,7 +288,7 @@
       "setting" : "off",
       "level" : 1.320801449925114
     }, {
-      "setting" : "off",
+      "setting" : "frequency",
       "level" : 2.1556176301576224
     }, {
       "setting" : "off",
@@ -321,7 +318,7 @@
       "setting" : "off",
       "level" : 0
     }, {
-      "setting" : "off",
+      "setting" : "frequency",
       "level" : 1.4996431907629364
     } ], [ {
       "setting" : "off",
