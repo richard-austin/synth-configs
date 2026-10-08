@@ -237,7 +237,7 @@
       "attackTime" : 0,
       "decayTime" : 0.5,
       "sustainLevel" : 0.1,
-      "releaseTime" : 6.95185703000944,
+      "releaseTime" : 6,
       "isExponential" : false
     },
     "legatoMode" : "on",
@@ -276,7 +276,7 @@
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 0.9949836428185906,
+    "level" : 0.3909836428185905,
     "configFileName" : "Snare bass"
   },
   "analyserSettings" : {
@@ -289,19 +289,19 @@
     "size" : 4,
     "matrix" : [ [ {
       "setting" : "off",
-      "level" : 1.320801449925114
+      "level" : 1
     }, {
       "setting" : "frequency",
-      "level" : 0.41454545454545355
+      "level" : 0.2872727272727263
     }, {
       "setting" : "off",
-      "level" : 1.156363636363636
+      "level" : 1
     }, {
       "setting" : "off",
-      "level" : 1.165918479130149
+      "level" : 1
     } ], [ {
       "setting" : "frequency",
-      "level" : 1.1100000000000003
+      "level" : 0.45454545454545625
     }, {
       "setting" : "off",
       "level" : 0
@@ -310,7 +310,7 @@
       "level" : 0.5048541752135935
     }, {
       "setting" : "off",
-      "level" : 2.881530894919766
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0
@@ -322,7 +322,7 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 2.276381227867597
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0

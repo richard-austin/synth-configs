@@ -150,7 +150,7 @@
       "releaseLevel" : 0.17552593984301032
     },
     "frequency" : 0,
-    "qFactor" : 86.08806483388776,
+    "qFactor" : 1,
     "gain" : 0.6829834991389243,
     "filterType" : "lowpass",
     "output" : "off",
@@ -173,7 +173,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -196,7 +196,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -219,7 +219,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -264,7 +264,7 @@
   },
   "phasorSettings" : {
     "phase" : 0,
-    "bandwidth" : -0.25,
+    "bandwidth" : 0,
     "gain" : 0,
     "lfoFrequency" : 0.2,
     "modWaveform" : "sine",
@@ -276,11 +276,14 @@
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 0.8978565152424676,
+    "level" : 0.46185651524246907,
     "configFileName" : "ayahh by FM"
   },
   "analyserSettings" : {
-    "analyserType" : "spectrum"
+    "analyserType" : "spectrum",
+    "yScale" : 1,
+    "xScale" : 1,
+    "triggerLevel" : 0
   },
   "matrixSettings" : {
     "size" : 4,
@@ -289,7 +292,7 @@
       "level" : 0
     }, {
       "setting" : "frequency",
-      "level" : 0.4477818508047163
+      "level" : 0.1750545780774434
     }, {
       "setting" : "off",
       "level" : 0

@@ -276,7 +276,7 @@
     "wetDry" : -0.06400000000000002
   },
   "generalSettings" : {
-    "level" : 1,
+    "level" : 0.6000000000000005,
     "configFileName" : "Square wave mod"
   },
   "analyserSettings" : {
@@ -292,13 +292,13 @@
       "level" : 0
     }, {
       "setting" : "frequency",
-      "level" : 0.6921283192215054
+      "level" : 0.4484919555851435
     }, {
       "setting" : "frequency",
-      "level" : 1.0401769878694311
+      "level" : 0.16727272727273151
     }, {
       "setting" : "off",
-      "level" : 1.3808572110129727
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0
@@ -307,10 +307,10 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 2.530194312714257
+      "level" : 1
     }, {
       "setting" : "off",
-      "level" : 1.5
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0
@@ -322,7 +322,7 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 1.0727272727272728
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0

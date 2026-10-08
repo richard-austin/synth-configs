@@ -150,7 +150,7 @@
       "releaseLevel" : -0.14691848211363392
     },
     "frequency" : 0.20068121599485075,
-    "qFactor" : 16.62434118627779,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "speaker",
@@ -173,7 +173,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -196,7 +196,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "allpass",
     "output" : "speaker",
@@ -219,7 +219,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 78.41483413464597,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -237,7 +237,7 @@
       "attackTime" : 0,
       "decayTime" : 0.5,
       "sustainLevel" : 0.1,
-      "releaseTime" : 6.95185703000944,
+      "releaseTime" : 6,
       "isExponential" : false
     },
     "legatoMode" : "off",
@@ -263,8 +263,8 @@
     "output" : "speaker"
   },
   "phasorSettings" : {
-    "phase" : -0.04477856025078676,
-    "bandwidth" : -0.7629192769177774,
+    "phase" : 0,
+    "bandwidth" : 0,
     "gain" : 1,
     "lfoFrequency" : 0.4231173558538177,
     "modWaveform" : "sine",
@@ -276,11 +276,14 @@
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 1,
+    "level" : 0.43599999999999967,
     "configFileName" : "FM mod with env"
   },
   "analyserSettings" : {
-    "analyserType" : "spectrum"
+    "analyserType" : "spectrum",
+    "yScale" : 1,
+    "xScale" : 1,
+    "triggerLevel" : 0
   },
   "matrixSettings" : {
     "size" : 4,
@@ -289,13 +292,13 @@
       "level" : 0
     }, {
       "setting" : "frequency",
-      "level" : 0.6921283192215054
+      "level" : 0.2581818181818181
     }, {
       "setting" : "frequency",
-      "level" : 1.0401769878694311
+      "level" : 0.250909090909091
     }, {
       "setting" : "off",
-      "level" : 1.3808572110129727
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0
@@ -304,10 +307,10 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 2.530194312714257
+      "level" : 1
     }, {
       "setting" : "off",
-      "level" : 1.5
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0
@@ -319,7 +322,7 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 1.0727272727272728
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0

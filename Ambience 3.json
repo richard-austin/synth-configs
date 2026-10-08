@@ -276,7 +276,7 @@
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 1,
+    "level" : 0.308000000000001,
     "configFileName" : "Ambience 3"
   },
   "analyserSettings" : {

@@ -289,13 +289,13 @@
     "size" : 4,
     "matrix" : [ [ {
       "setting" : "off",
-      "level" : 1.320801449925114
+      "level" : 1
     }, {
       "setting" : "frequency",
-      "level" : 2.3
+      "level" : 0.7963636363636383
     }, {
       "setting" : "frequency",
-      "level" : 0.36535440024318583
+      "level" : 0.2017180366068218
     }, {
       "setting" : "off",
       "level" : 0
@@ -322,7 +322,7 @@
       "level" : 0
     }, {
       "setting" : "frequency",
-      "level" : 1.7331774421031985
+      "level" : 0.7381818181818207
     } ], [ {
       "setting" : "off",
       "level" : 0

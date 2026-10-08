@@ -150,7 +150,7 @@
       "releaseLevel" : -0.14691848211363392
     },
     "frequency" : 0,
-    "qFactor" : 29.687686417849662,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "bandpass",
     "output" : "phasor",
@@ -173,7 +173,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -196,7 +196,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "allpass",
     "output" : "speaker",
@@ -219,7 +219,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 78.41483413464597,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "phasor",
@@ -237,7 +237,7 @@
       "attackTime" : 0,
       "decayTime" : 0.5,
       "sustainLevel" : 0.1,
-      "releaseTime" : 6.95185703000944,
+      "releaseTime" : 6,
       "isExponential" : false
     },
     "legatoMode" : "on",
@@ -276,7 +276,7 @@
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 0.980078950455341,
+    "level" : 0.4920789504553416,
     "configFileName" : "Ambient 2"
   },
   "analyserSettings" : {
@@ -289,10 +289,10 @@
     "size" : 4,
     "matrix" : [ [ {
       "setting" : "off",
-      "level" : 1.320801449925114
+      "level" : 1
     }, {
       "setting" : "frequency",
-      "level" : 0.11928741677001714
+      "level" : 0.03201468949728989
     }, {
       "setting" : "off",
       "level" : 0
@@ -322,7 +322,7 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 1.4996431907629364
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0

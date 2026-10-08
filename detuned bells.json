@@ -292,7 +292,7 @@
       "level" : 0
     }, {
       "setting" : "frequency",
-      "level" : 3
+      "level" : 0.461818181818183
     }, {
       "setting" : "off",
       "level" : 0
@@ -322,7 +322,7 @@
       "level" : 0
     }, {
       "setting" : "frequency",
-      "level" : 1.5803808214541877
+      "level" : 0.4218181818181839
     } ], [ {
       "setting" : "off",
       "level" : 0

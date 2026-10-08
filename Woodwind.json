@@ -150,7 +150,7 @@
       "releaseLevel" : -0.14691848211363392
     },
     "frequency" : 0,
-    "qFactor" : 29.687686417849662,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "bandpass",
     "output" : "phasor",
@@ -173,7 +173,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "off",
@@ -196,7 +196,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 20,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "allpass",
     "output" : "speaker",
@@ -219,7 +219,7 @@
       "releaseLevel" : 0
     },
     "frequency" : 0,
-    "qFactor" : 78.41483413464597,
+    "qFactor" : 1,
     "gain" : 0.4,
     "filterType" : "lowpass",
     "output" : "phasor",
@@ -237,7 +237,7 @@
       "attackTime" : 0,
       "decayTime" : 0.5,
       "sustainLevel" : 0.1,
-      "releaseTime" : 6.95185703000944,
+      "releaseTime" : 6,
       "isExponential" : false
     },
     "legatoMode" : "on",
@@ -263,8 +263,8 @@
     "output" : "speaker"
   },
   "phasorSettings" : {
-    "phase" : -0.04477856025078676,
-    "bandwidth" : -0.5923542180451266,
+    "phase" : 0,
+    "bandwidth" : 0,
     "gain" : 1,
     "lfoFrequency" : 0.2,
     "modWaveform" : "sine",
@@ -276,20 +276,23 @@
     "wetDry" : 0
   },
   "generalSettings" : {
-    "level" : 0.5537976359770939,
+    "level" : 0.17379763597709388,
     "configFileName" : "Woodwind"
   },
   "analyserSettings" : {
-    "analyserType" : "spectrum"
+    "analyserType" : "spectrum",
+    "yScale" : 1,
+    "xScale" : 1,
+    "triggerLevel" : 0
   },
   "matrixSettings" : {
     "size" : 4,
     "matrix" : [ [ {
       "setting" : "off",
-      "level" : 1.320801449925114
+      "level" : 1
     }, {
       "setting" : "frequency",
-      "level" : 0.5454313461418884
+      "level" : 0.1017949825055247
     }, {
       "setting" : "off",
       "level" : 0
@@ -304,7 +307,7 @@
       "level" : 0
     }, {
       "setting" : "frequency",
-      "level" : 0.352279982590193
+      "level" : 0.04318907349928387
     }, {
       "setting" : "off",
       "level" : 0
@@ -319,7 +322,7 @@
       "level" : 0
     }, {
       "setting" : "off",
-      "level" : 1.4996431907629364
+      "level" : 1
     } ], [ {
       "setting" : "off",
       "level" : 0
